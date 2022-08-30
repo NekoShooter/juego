@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="un juego">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="" href="">
+    </head>
+    <body>
+        <div class="contenedor">
+            <canvas id="game"></canvas>
+            <div class="controles">
+                <button id="arriba" value="38">↑</button>
+                <button id="izquierda" value="37">←</button>
+                <button id="derecha" value="39">→</button>
+                <button id="abajo" value="40">↓</button>
+            </div>
+            <div class="mensajes">
+                <!--pendiente-->
+                <p>Vidas : <span id="lives"></span></p>
+                <p>Tiempo : <span id="time"></span></p>
+            </div>
+        </div>
+        <script src="./map.js"></script>
+        <script src="./juego.js"></script>
+    </body>
+</html>
